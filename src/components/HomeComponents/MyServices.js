@@ -88,7 +88,7 @@ class Bundles extends Component {
     render() {
         return (
             <ScrollView style={{ backgroundColor: 'white' }}>
-                <View style={{ marginTop: 10, marginBottom: 10 }}>
+                <View style={{ marginTop: 10, marginBottom: 10, justifyContent: 'flex-end' }}>
                     <Button
                         title="Add New"
                         buttonStyle={{

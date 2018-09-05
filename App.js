@@ -18,7 +18,13 @@ import MyServices from './src/components/HomeComponents/MyServices';
 import Notifications from "./src/components/HomeComponents/Notifications";
 import MyCalender from "./src/components/HomeComponents/MyCalender";
 
-
+export default class App extends React.Component {
+  render() {
+    return (
+      <MainNavigation />
+    )
+  }
+}
 
 const TabNavigator = createBottomTabNavigator({
   'Shift Overview': {
@@ -80,10 +86,10 @@ const DrawerNavigator = createDrawerNavigator({
   'Go Serve Me': StackNavigation
 })
 
-export default createSwitchNavigator({
+const MainNavigation = createSwitchNavigator({
   // SignIn: LogInScreen,
-  // Register: RegisterScreen,
-  Home: DrawerNavigator
+  Register: RegisterScreen,
+  // Home: DrawerNavigator
 })
 
 console.disableYellowBox = true;

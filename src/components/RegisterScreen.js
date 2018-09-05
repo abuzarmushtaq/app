@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
-import { Text, View, Image, StyleSheet, KeyboardAvoidingView } from 'react-native';
+import { Text, View, Image, StyleSheet, KeyboardAvoidingView, TouchableOpacity } from 'react-native';
 // import { withFormik } from 'formik';
 import { FormLabel, FormInput, FormValidationMessage, Button } from 'react-native-elements';
+import RightArrowIcon from 'react-native-vector-icons/MaterialCommunityIcons';
 import { TextField } from 'react-native-material-textfield';
 
 export default class RegisterScreen extends Component {
@@ -46,15 +47,21 @@ export default class RegisterScreen extends Component {
                             keyboardType="phone-pad"
                             autoCapitalize="none"
                             autoCorrect={false} />
-                    </View>
-                    <View style={{ alignContent: 'flex-end', alignItems: 'flex-end', width: '100%' }}>
-                        <Button
-                            title=">"
-                            buttonStyle={{
-                                backgroundColor: 'black',
-                                borderRadius: 25
-                            }}
-                            color='white' />
+
+                        <View style={{flex: 1, flexDirection: 'row', justifyContent: 'flex-end', marginTop: 10}}>
+                            <TouchableOpacity
+                                style={{
+                                    alignItems: 'center',
+                                    justifyContent: 'center',
+                                    width: 50,
+                                    height: 50,
+                                    backgroundColor: 'black',
+                                    borderRadius: 100,
+                                }}
+                            >
+                                <RightArrowIcon name={"chevron-right"} size={30} color="white" />
+                            </TouchableOpacity>
+                        </View>
                     </View>
                 </View>
             </KeyboardAvoidingView>

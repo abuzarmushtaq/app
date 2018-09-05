@@ -1,8 +1,10 @@
 import React, { Component } from 'react'
-import { Text, View, StyleSheet, ScrollView } from 'react-native'
+import { Text, View, StyleSheet, ScrollView, TouchableOpacity } from 'react-native'
 import { createMaterialTopTabNavigator } from 'react-navigation';
 import Swipeout from 'react-native-swipeout';
-import { Button } from 'react-native-elements';
+
+import AddIcon from 'react-native-vector-icons/Entypo';
+// import { Button } from 'react-native-elements';
 
 
 let swipeoutBtns = [
@@ -24,17 +26,10 @@ class Services extends Component {
     render() {
         return (
             <ScrollView style={{ backgroundColor: 'white' }}>
-                <View style={{ marginTop: 10, marginBottom: 10 }}>
-                    <Button
-                        title="Add New"
-                        buttonStyle={{
-                            backgroundColor: 'black',
-                            // borderWidth: 1,
-                            // borderRadius: 10,
-                        }}
-                        onPress={() => this.props.navigation.navigate('Home')}
-                        fontWeight='bold'
-                        color='white' />
+                <View style={{ marginTop: 5, marginBottom: 5, marginRight: 20, flex: 1, justifyContent: 'flex-end', flexDirection: 'row' }}>
+                    <TouchableOpacity>
+                        <AddIcon name="circle-with-plus" color="black" size={30} />
+                    </TouchableOpacity>
                 </View>
                 <View style={styles.serviceBar}>
                     <Swipeout
@@ -88,18 +83,13 @@ class Bundles extends Component {
     render() {
         return (
             <ScrollView style={{ backgroundColor: 'white' }}>
-                <View style={{ marginTop: 10, marginBottom: 10, justifyContent: 'flex-end' }}>
-                    <Button
-                        title="Add New"
-                        buttonStyle={{
-                            backgroundColor: 'black',
-                            // borderWidth: 1,
-                            // borderRadius: 10,
-                        }}
-                        onPress={() => this.props.navigation.navigate('Home')}
-                        fontWeight='bold'
-                        color='white' />
+
+                <View style={{ marginTop: 5, marginBottom: 5, marginRight: 20, flex: 1, justifyContent: 'flex-end', flexDirection: 'row' }}>
+                    <TouchableOpacity>
+                        <AddIcon name="circle-with-plus" color="black" size={30} />
+                    </TouchableOpacity>
                 </View>
+
 
                 <View style={styles.serviceBar}>
                     <Swipeout
@@ -180,7 +170,7 @@ const styles = StyleSheet.create({
     serviceBar: {
         // height: 100,
         // justifyContent: 'center'
-        borderTopColor: 'lightgray',
-        borderTopWidth: 1,
+        borderBottomColor: 'gray',
+        borderBottomWidth: 1,
     }
 })

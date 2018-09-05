@@ -179,28 +179,6 @@
             ]
         },
         {
-            "outputFile": "C:\\Users\\Abuzar\\Desktop\\GoServeMe\\realApp\\finalEdited\\GoServeMe\\android\\app\\build\\intermediates\\res\\merged\\debug\\values-nl_values-nl.arsc.flat",
-            "map": [
-                {
-                    "source": "C:\\Users\\Abuzar\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.0.1.aar\\2ed9cce2057d40bdcdccd2920d9026cb\\res\\values-nl\\values-nl.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "280,398,506,629,734,841,927,1035,1155,1237,1348,1452,1551,1666,1779,1882,2000,2103",
-                        "endColumns": "117,107,122,104,106,85,107,119,81,110,103,98,114,112,102,117,102,100",
-                        "endOffsets": "393,501,624,729,836,922,1030,1150,1232,1343,1447,1546,1661,1774,1877,1995,2098,2199"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,173,281,404,509,616,702,810,930,1012,1123,1227,1326,1441,1554,1657,1775,1878",
-                        "endColumns": "117,107,122,104,106,85,107,119,81,110,103,98,114,112,102,117,102,100",
-                        "endOffsets": "168,276,399,504,611,697,805,925,1007,1118,1222,1321,1436,1549,1652,1770,1873,1974"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "C:\\Users\\Abuzar\\Desktop\\GoServeMe\\realApp\\finalEdited\\GoServeMe\\android\\app\\build\\intermediates\\res\\merged\\debug\\values-large-v4_values-large-v4.arsc.flat",
             "map": [
                 {
@@ -218,6 +196,28 @@
                         "startOffsets": "55,117,189,248,312,379,446,512,578,633,737",
                         "endColumns": "61,71,58,63,66,66,65,65,54,103,115",
                         "endOffsets": "112,184,243,307,374,441,507,573,628,732,848"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Abuzar\\Desktop\\GoServeMe\\realApp\\finalEdited\\GoServeMe\\android\\app\\build\\intermediates\\res\\merged\\debug\\values-nl_values-nl.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Abuzar\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.0.1.aar\\2ed9cce2057d40bdcdccd2920d9026cb\\res\\values-nl\\values-nl.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "280,398,506,629,734,841,927,1035,1155,1237,1348,1452,1551,1666,1779,1882,2000,2103",
+                        "endColumns": "117,107,122,104,106,85,107,119,81,110,103,98,114,112,102,117,102,100",
+                        "endOffsets": "393,501,624,729,836,922,1030,1150,1232,1343,1447,1546,1661,1774,1877,1995,2098,2199"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,173,281,404,509,616,702,810,930,1012,1123,1227,1326,1441,1554,1657,1775,1878",
+                        "endColumns": "117,107,122,104,106,85,107,119,81,110,103,98,114,112,102,117,102,100",
+                        "endOffsets": "168,276,399,504,611,697,805,925,1007,1118,1222,1321,1436,1549,1652,1770,1873,1974"
                     }
                 }
             ]
@@ -245,28 +245,6 @@
             ]
         },
         {
-            "outputFile": "C:\\Users\\Abuzar\\Desktop\\GoServeMe\\realApp\\finalEdited\\GoServeMe\\android\\app\\build\\intermediates\\res\\merged\\debug\\values-kn-rIN_values-kn-rIN.arsc.flat",
-            "map": [
-                {
-                    "source": "C:\\Users\\Abuzar\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.0.1.aar\\2ed9cce2057d40bdcdccd2920d9026cb\\res\\values-kn-rIN\\values-kn-rIN.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "284,402,510,633,745,858,946,1053,1180,1262,1378,1489,1588,1701,1805,1919,2045,2145",
-                        "endColumns": "117,107,122,111,112,87,106,126,81,115,110,98,112,103,113,125,99,100",
-                        "endOffsets": "397,505,628,740,853,941,1048,1175,1257,1373,1484,1583,1696,1800,1914,2040,2140,2241"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,173,281,404,516,629,717,824,951,1033,1149,1260,1359,1472,1576,1690,1816,1916",
-                        "endColumns": "117,107,122,111,112,87,106,126,81,115,110,98,112,103,113,125,99,100",
-                        "endOffsets": "168,276,399,511,624,712,819,946,1028,1144,1255,1354,1467,1571,1685,1811,1911,2012"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "C:\\Users\\Abuzar\\Desktop\\GoServeMe\\realApp\\finalEdited\\GoServeMe\\android\\app\\build\\intermediates\\res\\merged\\debug\\values-ur-rPK_values-ur-rPK.arsc.flat",
             "map": [
                 {
@@ -284,6 +262,28 @@
                         "startOffsets": "55,165,273,396,502,611,697,801,921,1006,1114,1223,1325,1436,1536,1644,1773,1871",
                         "endColumns": "109,107,122,105,108,85,103,119,84,107,108,101,110,99,107,128,97,102",
                         "endOffsets": "160,268,391,497,606,692,796,916,1001,1109,1218,1320,1431,1531,1639,1768,1866,1969"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Abuzar\\Desktop\\GoServeMe\\realApp\\finalEdited\\GoServeMe\\android\\app\\build\\intermediates\\res\\merged\\debug\\values-kn-rIN_values-kn-rIN.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Abuzar\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.0.1.aar\\2ed9cce2057d40bdcdccd2920d9026cb\\res\\values-kn-rIN\\values-kn-rIN.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "284,402,510,633,745,858,946,1053,1180,1262,1378,1489,1588,1701,1805,1919,2045,2145",
+                        "endColumns": "117,107,122,111,112,87,106,126,81,115,110,98,112,103,113,125,99,100",
+                        "endOffsets": "397,505,628,740,853,941,1048,1175,1257,1373,1484,1583,1696,1800,1914,2040,2140,2241"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,173,281,404,516,629,717,824,951,1033,1149,1260,1359,1472,1576,1690,1816,1916",
+                        "endColumns": "117,107,122,111,112,87,106,126,81,115,110,98,112,103,113,125,99,100",
+                        "endOffsets": "168,276,399,511,624,712,819,946,1028,1144,1255,1354,1467,1571,1685,1811,1911,2012"
                     }
                 }
             ]

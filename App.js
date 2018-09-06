@@ -1,6 +1,7 @@
 import React from 'react';
 import { StyleSheet, View, Image, StatusBar, TouchableOpacity } from 'react-native';
 
+
 import ShiftIcon from 'react-native-vector-icons/MaterialIcons';
 import ServiceIcon from 'react-native-vector-icons/MaterialCommunityIcons';
 import CalendarIcon from 'react-native-vector-icons/Octicons';
@@ -19,6 +20,7 @@ import Notifications from "./src/components/HomeComponents/Notifications";
 import MyCalender from "./src/components/HomeComponents/MyCalender";
 
 export default class App extends React.Component {
+
   render() {
     return (
       <MainNavigation />
@@ -87,9 +89,9 @@ const DrawerNavigator = createDrawerNavigator({
 })
 
 const MainNavigation = createSwitchNavigator({
-  // SignIn: LogInScreen,
+  SignIn: LogInScreen,
   Register: RegisterScreen,
-  // Home: DrawerNavigator
+  Home: DrawerNavigator
 })
 
 console.disableYellowBox = true;

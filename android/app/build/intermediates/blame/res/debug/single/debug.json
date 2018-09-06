@@ -24,12 +24,12 @@
         "source": "C:\\Users\\Abuzar\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.0.1.aar\\2ed9cce2057d40bdcdccd2920d9026cb\\res\\drawable-xhdpi\\abc_list_focused_holo.9.png"
     },
     {
-        "merged": "C:\\Users\\Abuzar\\Desktop\\GoServeMe\\realApp\\finalEdited\\GoServeMe\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_abc_cab_background_top_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\Abuzar\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.0.1.aar\\2ed9cce2057d40bdcdccd2920d9026cb\\res\\drawable-mdpi\\abc_cab_background_top_mtrl_alpha.9.png"
-    },
-    {
         "merged": "C:\\Users\\Abuzar\\Desktop\\GoServeMe\\realApp\\finalEdited\\GoServeMe\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_abc_btn_radio_to_on_mtrl_000.png.flat",
         "source": "C:\\Users\\Abuzar\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.0.1.aar\\2ed9cce2057d40bdcdccd2920d9026cb\\res\\drawable-xxhdpi\\abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "C:\\Users\\Abuzar\\Desktop\\GoServeMe\\realApp\\finalEdited\\GoServeMe\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_abc_cab_background_top_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\Abuzar\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.0.1.aar\\2ed9cce2057d40bdcdccd2920d9026cb\\res\\drawable-mdpi\\abc_cab_background_top_mtrl_alpha.9.png"
     },
     {
         "merged": "C:\\Users\\Abuzar\\Desktop\\GoServeMe\\realApp\\finalEdited\\GoServeMe\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_abc_ic_search_api_mtrl_alpha.png.flat",
@@ -68,12 +68,12 @@
         "source": "C:\\Users\\Abuzar\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.0.1.aar\\2ed9cce2057d40bdcdccd2920d9026cb\\res\\drawable-hdpi\\abc_list_longpressed_holo.9.png"
     },
     {
-        "merged": "C:\\Users\\Abuzar\\Desktop\\GoServeMe\\realApp\\finalEdited\\GoServeMe\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_abc_switch_track_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\Abuzar\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.0.1.aar\\2ed9cce2057d40bdcdccd2920d9026cb\\res\\drawable-xxxhdpi\\abc_switch_track_mtrl_alpha.9.png"
-    },
-    {
         "merged": "C:\\Users\\Abuzar\\Desktop\\GoServeMe\\realApp\\finalEdited\\GoServeMe\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
         "source": "C:\\Users\\Abuzar\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.0.1.aar\\2ed9cce2057d40bdcdccd2920d9026cb\\res\\drawable-mdpi\\abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Abuzar\\Desktop\\GoServeMe\\realApp\\finalEdited\\GoServeMe\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_abc_switch_track_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\Abuzar\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.0.1.aar\\2ed9cce2057d40bdcdccd2920d9026cb\\res\\drawable-xxxhdpi\\abc_switch_track_mtrl_alpha.9.png"
     },
     {
         "merged": "C:\\Users\\Abuzar\\Desktop\\GoServeMe\\realApp\\finalEdited\\GoServeMe\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_dialog_material_background_light.xml.flat",
@@ -124,20 +124,20 @@
         "source": "C:\\Users\\Abuzar\\.gradle\\caches\\transforms-1\\files-1.1\\react-native-0.55.4.aar\\725575d5a8a232c473f2c50a45d46f60\\res\\layout\\dev_loading_view.xml"
     },
     {
-        "merged": "C:\\Users\\Abuzar\\Desktop\\GoServeMe\\realApp\\finalEdited\\GoServeMe\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_abc_ic_clear_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\Abuzar\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.0.1.aar\\2ed9cce2057d40bdcdccd2920d9026cb\\res\\drawable-xxxhdpi\\abc_ic_clear_mtrl_alpha.png"
-    },
-    {
         "merged": "C:\\Users\\Abuzar\\Desktop\\GoServeMe\\realApp\\finalEdited\\GoServeMe\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_abc_btn_check_to_on_mtrl_015.png.flat",
         "source": "C:\\Users\\Abuzar\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.0.1.aar\\2ed9cce2057d40bdcdccd2920d9026cb\\res\\drawable-hdpi\\abc_btn_check_to_on_mtrl_015.png"
     },
     {
-        "merged": "C:\\Users\\Abuzar\\Desktop\\GoServeMe\\realApp\\finalEdited\\GoServeMe\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_abc_btn_rating_star_on_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\Abuzar\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.0.1.aar\\2ed9cce2057d40bdcdccd2920d9026cb\\res\\drawable-hdpi\\abc_btn_rating_star_on_mtrl_alpha.png"
+        "merged": "C:\\Users\\Abuzar\\Desktop\\GoServeMe\\realApp\\finalEdited\\GoServeMe\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_abc_ic_clear_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\Abuzar\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.0.1.aar\\2ed9cce2057d40bdcdccd2920d9026cb\\res\\drawable-xxxhdpi\\abc_ic_clear_mtrl_alpha.png"
     },
     {
         "merged": "C:\\Users\\Abuzar\\Desktop\\GoServeMe\\realApp\\finalEdited\\GoServeMe\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-hdpi_abc_ic_ab_back_mtrl_am_alpha.png.flat",
         "source": "C:\\Users\\Abuzar\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.0.1.aar\\2ed9cce2057d40bdcdccd2920d9026cb\\res\\drawable-ldrtl-hdpi\\abc_ic_ab_back_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Abuzar\\Desktop\\GoServeMe\\realApp\\finalEdited\\GoServeMe\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_abc_btn_rating_star_on_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\Abuzar\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.0.1.aar\\2ed9cce2057d40bdcdccd2920d9026cb\\res\\drawable-hdpi\\abc_btn_rating_star_on_mtrl_alpha.png"
     },
     {
         "merged": "C:\\Users\\Abuzar\\Desktop\\GoServeMe\\realApp\\finalEdited\\GoServeMe\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_item_background_holo_dark.xml.flat",

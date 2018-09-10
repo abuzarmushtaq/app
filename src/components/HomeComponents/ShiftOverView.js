@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { Text, View, StyleSheet, ScrollView } from 'react-native'
 import Swipeout from 'react-native-swipeout';
 import { createMaterialTopTabNavigator } from 'react-navigation';
+import { GiftedChat } from 'react-native-gifted-chat';
 
 let swipeoutBtns = [
     {
@@ -123,15 +124,52 @@ class Done extends Component {
         )
     }
 }
+
 class Disputed extends Component {
+    state = {
+        messages: [],
+    }
+
+    componentWillMount() {
+        this.setState({
+            messages: [
+                {
+                    _id: 1,
+                    text: 'Hi!',
+                    createdAt: new Date(),
+                    user: {
+                        _id: 2,
+                        name: 'Asad',
+                        // avatar: ,
+                    },
+                },
+            ],
+        })
+    }
+
+    onSend(messages = []) {
+        this.setState(previousState => ({
+            messages: GiftedChat.append(previousState.messages, messages),
+        }))
+    }
+
     render() {
         return (
-            <View style={styles.container}>
-                <Text> View Same As Pending Page! </Text>
-            </View>
+            <GiftedChat
+                style={{ backgroundColor: 'white' }}
+                messages={this.state.messages}
+                onSend={messages => this.onSend(messages)}
+                user={{
+                    _id: 1,
+                }}
+            />
         )
     }
 }
+
+
+
+
 
 export default createMaterialTopTabNavigator({
     Pending: Pending,

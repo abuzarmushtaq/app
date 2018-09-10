@@ -19,7 +19,10 @@ export default class MyCalender extends Component {
                     flex: 1, justifyContent: 'flex-end', flexDirection: 'row'
                 }}>
                     <TouchableOpacity>
-                        <AddIcon name="circle-with-plus" color="black" size={30} />
+                        <View style={styles.AddButton}>
+                            <Text style={{ fontSize: 18, paddingRight: 5 }}>Add Bundles</Text>
+                            <AddIcon name="circle-with-plus" color="black" size={30} />
+                        </View>
                     </TouchableOpacity>
                 </View>
                 <View>
@@ -106,5 +109,15 @@ export default class MyCalender extends Component {
 }
 
 const styles = StyleSheet.create({
-
+    AddButton: {
+        flexDirection: 'row',
+        alignItems: 'center',
+        borderWidth: 2,
+        paddingTop: 5,
+        paddingBottom: 5,
+        paddingLeft: 10,
+        paddingRight: 10,
+        borderRadius: 10,
+        marginTop: 5
+    }
 })

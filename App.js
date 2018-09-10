@@ -6,6 +6,7 @@ import ShiftIcon from 'react-native-vector-icons/MaterialIcons';
 import ServiceIcon from 'react-native-vector-icons/MaterialCommunityIcons';
 import CalendarIcon from 'react-native-vector-icons/Octicons';
 import NotificationIcon from 'react-native-vector-icons/Entypo';
+import ActiveJobsIcon from 'react-native-vector-icons/Entypo';
 
 import LogInScreen from './src/components/LogInScreen';
 import RegisterScreen from './src/components/RegisterScreen';
@@ -18,12 +19,16 @@ import ShiftOverView from "./src/components/HomeComponents/ShiftOverView";
 import MyServices from './src/components/HomeComponents/MyServices';
 import Notifications from "./src/components/HomeComponents/Notifications";
 import MyCalender from "./src/components/HomeComponents/MyCalender";
+import ActiveJobs from './src/components/HomeComponents/ActiveJobs';
 
 export default class App extends React.Component {
 
   render() {
     return (
-      <MainNavigation />
+      <View style={{ flex: 1 }}>
+        <StatusBar backgroundColor="white" barStyle="dark-content" />
+        <MainNavigation />
+      </View>
     )
   }
 }
@@ -42,6 +47,14 @@ const TabNavigator = createBottomTabNavigator({
     navigationOptions: {
       tabBarIcon: ({ tintColor }) => (
         <ServiceIcon name="broom" color={tintColor} size={30} />
+      )
+    }
+  },
+  'Active Jobs': {
+    screen: ActiveJobs,
+    navigationOptions: {
+      tabBarIcon: ({ tintColor }) => (
+        <ActiveJobsIcon name="flash" color={tintColor} size={30} />
       )
     }
   },
@@ -79,6 +92,15 @@ const StackNavigation = createStackNavigator({
             <ShiftIcon name="format-align-justify" size={30} />
           </View>
         </TouchableOpacity>
+      ),
+      headerRight: (
+        <View style={{ paddingHorizontal: 10 }}>
+          <Image
+            source={require('./assets/logo.png')}
+            style={{ width: 35, height: 35 }}
+            resizeMode="center"
+          />
+        </View>
       )
     })
   }
@@ -89,8 +111,8 @@ const DrawerNavigator = createDrawerNavigator({
 })
 
 const MainNavigation = createSwitchNavigator({
-  SignIn: LogInScreen,
-  Register: RegisterScreen,
+  // SignIn: LogInScreen,
+  // Register: RegisterScreen,
   Home: DrawerNavigator
 })
 

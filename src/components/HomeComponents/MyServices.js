@@ -28,7 +28,10 @@ class Services extends Component {
             <ScrollView style={{ backgroundColor: 'white' }}>
                 <View style={{ marginTop: 5, marginBottom: 5, marginRight: 20, flex: 1, justifyContent: 'flex-end', flexDirection: 'row' }}>
                     <TouchableOpacity>
-                        <AddIcon name="circle-with-plus" color="black" size={30} />
+                        <View style={styles.AddButton}>
+                            <Text style={{ fontSize: 18, paddingRight: 5 }}>Add Services</Text>
+                            <AddIcon name="circle-with-plus" color="black" size={30} />
+                        </View>
                     </TouchableOpacity>
                 </View>
                 <View style={styles.serviceBar}>
@@ -86,7 +89,10 @@ class Bundles extends Component {
 
                 <View style={{ marginTop: 5, marginBottom: 5, marginRight: 20, flex: 1, justifyContent: 'flex-end', flexDirection: 'row' }}>
                     <TouchableOpacity>
-                        <AddIcon name="circle-with-plus" color="black" size={30} />
+                        <View style={styles.AddButton}>
+                            <Text style={{ fontSize: 18, paddingRight: 5 }}>Add Bundles</Text>
+                            <AddIcon name="circle-with-plus" color="black" size={30} />
+                        </View>
                     </TouchableOpacity>
                 </View>
 
@@ -172,5 +178,16 @@ const styles = StyleSheet.create({
         // justifyContent: 'center'
         borderBottomColor: 'gray',
         borderBottomWidth: 1,
+    },
+    AddButton: {
+        flexDirection: 'row',
+        alignItems: 'center',
+        borderWidth: 2,
+        paddingTop: 5,
+        paddingBottom: 5,
+        paddingLeft: 10,
+        paddingRight: 10,
+        borderRadius: 10,
+        marginTop: 5
     }
 })

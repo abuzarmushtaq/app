@@ -1,8 +1,13 @@
 import React, { Component } from 'react'
-import { Text, View, StyleSheet, ScrollView } from 'react-native'
+import { View, StyleSheet, ScrollView, TouchableOpacity } from 'react-native'
 import Swipeout from 'react-native-swipeout';
 import { createMaterialTopTabNavigator } from 'react-navigation';
 import { GiftedChat } from 'react-native-gifted-chat';
+import { Container, Header, Content, List, ListItem, Text } from 'native-base';
+import AvatarIcon from 'react-native-vector-icons/MaterialIcons';
+
+
+
 
 let swipeoutBtns = [
     {
@@ -118,51 +123,177 @@ class Pending extends Component {
 class Done extends Component {
     render() {
         return (
-            <View style={styles.container}>
-                <Text> View Same As Pending Page! </Text>
-            </View>
+            <ScrollView>
+                <View style={styles.requestBar}>
+                    <Swipeout
+                        right={swipeoutBtns}
+                        backgroundColor="white"
+                    >
+                        <View style={{ padding: 10 }}>
+                            <Text style={{ fontSize: 18, fontWeight: '500' }}>Name: </Text>
+                            <Text>Date & Time: </Text>
+                            <Text>Adress: </Text>
+                            <Text>Service Detail: </Text>
+                        </View>
+                    </Swipeout>
+                </View>
+                <View style={styles.requestBar}>
+                    <Swipeout
+                        right={swipeoutBtns}
+                        backgroundColor="white"
+                    >
+                        <View style={{ padding: 10 }}>
+                            <Text style={{ fontSize: 18, fontWeight: '500' }}>Name: </Text>
+                            <Text>Date & Time: </Text>
+                            <Text>Adress: </Text>
+                            <Text>Service Detail: </Text>
+                        </View>
+                    </Swipeout>
+                </View>
+                <View style={styles.requestBar}>
+                    <Swipeout
+                        right={swipeoutBtns}
+                        backgroundColor="white"
+                    >
+                        <View style={{ padding: 10 }}>
+                            <Text style={{ fontSize: 18, fontWeight: '500' }}>Name: "null"</Text>
+                            <Text>Date & Time: </Text>
+                            <Text>Adress: </Text>
+                            <Text>Service Detail: </Text>
+                        </View>
+                    </Swipeout>
+                </View>
+                <View style={styles.requestBar}>
+                    <Swipeout
+                        right={swipeoutBtns}
+                        backgroundColor="white"
+                    >
+                        <View style={{ padding: 10 }}>
+                            <Text style={{ fontSize: 18, fontWeight: '500' }}>Name: "null"</Text>
+                            <Text>Date & Time:</Text>
+                            <Text>Adress: </Text>
+                            <Text>Service Detail: </Text>
+                        </View>
+                    </Swipeout>
+                </View>
+                <View style={styles.requestBar}>
+                    <Swipeout
+                        right={swipeoutBtns}
+                        backgroundColor="white"
+                    >
+                        <View style={{ padding: 10 }}>
+                            <Text style={{ fontSize: 18, fontWeight: '500' }}>Name: "null"</Text>
+                            <Text>Date & Time: </Text>
+                            <Text>Adress: </Text>
+                            <Text>Service Detail: </Text>
+                        </View>
+                    </Swipeout>
+                </View>
+                <View style={styles.requestBar}>
+                    <Swipeout
+                        right={swipeoutBtns}
+                        backgroundColor="white"
+                    >
+                        <View style={{ padding: 10 }}>
+                            <Text style={{ fontSize: 18, fontWeight: '500' }}>Name: "null"</Text>
+                            <Text>Date & Time: </Text>
+                            <Text>Adress: </Text>
+                            <Text>Service Detail: </Text>
+                        </View>
+                    </Swipeout>
+                </View>
+                <View style={styles.requestBar}>
+                    <Swipeout
+                        right={swipeoutBtns}
+                        backgroundColor="white"
+                    >
+                        <View style={{ padding: 10 }}>
+                            <Text style={{ fontSize: 18, fontWeight: '500' }}>Name: "null"</Text>
+                            <Text>Date & Time: </Text>
+                            <Text>Adress: </Text>
+                            <Text>Service Detail: </Text>
+                        </View>
+                    </Swipeout>
+                </View>
+            </ScrollView>
         )
     }
 }
 
 class Disputed extends Component {
-    state = {
-        messages: [],
-    }
-
-    componentWillMount() {
-        this.setState({
-            messages: [
-                {
-                    _id: 1,
-                    text: 'Hi!',
-                    createdAt: new Date(),
-                    user: {
-                        _id: 2,
-                        name: 'Asad',
-                        // avatar: ,
-                    },
-                },
-            ],
-        })
-    }
-
-    onSend(messages = []) {
-        this.setState(previousState => ({
-            messages: GiftedChat.append(previousState.messages, messages),
-        }))
-    }
 
     render() {
         return (
-            <GiftedChat
-                style={{ backgroundColor: 'white' }}
-                messages={this.state.messages}
-                onSend={messages => this.onSend(messages)}
-                user={{
-                    _id: 1,
-                }}
-            />
+            <ScrollView style={{ backgroundColor: '#eee' }}>
+                <View>
+                    <Swipeout backgroundColor="white">
+                        <View style={{ padding: 20, flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' }}>
+                            <View>
+                                <AvatarIcon name="person" size={40} />
+                                <Text>John</Text>
+                            </View>
+                            <TouchableOpacity>
+                                <Text style={{ fontSize: 16, fontWeight: '500', color: '#0eb2e7' }}>Chat </Text>
+                            </TouchableOpacity>
+                        </View>
+                    </Swipeout>
+                    <Swipeout backgroundColor="white">
+                        <View style={{ padding: 20, flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' }}>
+                            <View>
+                                <AvatarIcon name="person" size={40} />
+                                <Text>Ashlay</Text>
+                            </View>
+                            <TouchableOpacity>
+                                <Text style={{ fontSize: 16, fontWeight: '500', color: '#0eb2e7' }}>Chat </Text>
+                            </TouchableOpacity>
+                        </View>
+                    </Swipeout>
+                    <Swipeout backgroundColor="white">
+                        <View style={{ padding: 20, flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' }}>
+                            <View>
+                                <AvatarIcon name="person" size={40} />
+                                <Text>Asad</Text>
+                            </View>
+                            <TouchableOpacity>
+                                <Text style={{ fontSize: 16, fontWeight: '500', color: '#0eb2e7' }}>Chat </Text>
+                            </TouchableOpacity>
+                        </View>
+                    </Swipeout>
+                    <Swipeout backgroundColor="white">
+                        <View style={{ padding: 20, flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' }}>
+                            <View>
+                                <AvatarIcon name="person" size={40} />
+                                <Text>Andrew</Text>
+                            </View>
+                            <TouchableOpacity>
+                                <Text style={{ fontSize: 16, fontWeight: '500', color: '#0eb2e7' }}>Chat </Text>
+                            </TouchableOpacity>
+                        </View>
+                    </Swipeout>
+                    <Swipeout backgroundColor="white">
+                        <View style={{ padding: 20, flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' }}>
+                            <View>
+                                <AvatarIcon name="person" size={40} />
+                                <Text>Andrew</Text>
+                            </View>
+                            <TouchableOpacity>
+                                <Text style={{ fontSize: 16, fontWeight: '500', color: '#0eb2e7' }}>Chat </Text>
+                            </TouchableOpacity>
+                        </View>
+                    </Swipeout>
+                    <Swipeout backgroundColor="white">
+                        <View style={{ padding: 20, flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' }}>
+                            <View>
+                                <AvatarIcon name="person" size={40} />
+                                <Text>Adam</Text>
+                            </View>
+                            <TouchableOpacity>
+                                <Text style={{ fontSize: 16, fontWeight: '500', color: '#0eb2e7' }}>Chat </Text>
+                            </TouchableOpacity>
+                        </View>
+                    </Swipeout>
+                </View>
+            </ScrollView>
         )
     }
 }
@@ -201,7 +332,11 @@ const styles = StyleSheet.create({
     requestBar: {
         // height: 100,
         // justifyContent: 'center'
-        borderTopColor: 'lightgray',
+        borderTopColor: '#ddd',
         borderTopWidth: 1,
+    },
+    serviceBar: {
+        borderBottomColor: '#ddd',
+        borderBottomWidth: 1,
     }
 })

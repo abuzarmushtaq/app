@@ -18,8 +18,12 @@ import Icons from 'react-native-vector-icons/Ionicons';
 import ShiftOverView from "./src/components/HomeComponents/ShiftOverView";
 import MyServices from './src/components/HomeComponents/MyServices';
 import Notifications from "./src/components/HomeComponents/Notifications";
-import MyCalender from "./src/components/HomeComponents/MyCalender";
+import MyCalendar from "./src/components/HomeComponents/MyCalendar";
 import ActiveJobs from './src/components/HomeComponents/ActiveJobs';
+import FAQ from './src/components/HomeComponents/FAQ'
+import Payments from './src/components/HomeComponents/Payments';
+import Account from './src/components/HomeComponents/Account';
+import Profile from './src/components/HomeComponents/Profile';
 
 export default class App extends React.Component {
 
@@ -59,7 +63,7 @@ const TabNavigator = createBottomTabNavigator({
     }
   },
   'My Calender': {
-    screen: MyCalender,
+    screen: MyCalendar,
     navigationOptions: {
       tabBarIcon: ({ tintColor }) => (
         <CalendarIcon name="calendar" color={tintColor} size={26} />
@@ -76,8 +80,8 @@ const TabNavigator = createBottomTabNavigator({
   }
 }, {
     tabBarOptions: {
-      activeTintColor: 'black',
-      inactiveTintColor: '#898989'
+      activeTintColor: '#000000',
+      inactiveTintColor: '#9e9e9e'
     }
   })
 
@@ -107,8 +111,17 @@ const StackNavigation = createStackNavigator({
 })
 
 const DrawerNavigator = createDrawerNavigator({
-  'Go Serve Me': StackNavigation
-})
+  'Home': { screen: StackNavigation },
+  'FAQ': FAQ,
+  'Payments': Payments,
+  'Account': Account,
+  'Profile': Profile
+}, {
+    contentOptions: {
+      activeTintColor: 'black'
+    }
+
+  })
 
 const MainNavigation = createSwitchNavigator({
   // SignIn: LogInScreen,

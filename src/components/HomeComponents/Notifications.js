@@ -1,13 +1,205 @@
 import React, { Component } from 'react'
-import { Text, View, StyleSheet, KeyboardAvoidingView } from 'react-native'
-import { GiftedChat } from 'react-native-gifted-chat';
+import { Text, View, StyleSheet, ScrollView } from 'react-native'
+import Swipeout from 'react-native-swipeout';
+
 
 export default class Notifications extends Component {
     render() {
         return (
-            <View style={styles.container}>
-                <Text>Notifications</Text>
-            </View>
+            <ScrollView>
+                <View style={styles.serviceBar}>
+                    <Swipeout backgroundColor="white">
+                        <View style={{ padding: 20 }}>
+                            <Text style={{ fontSize: 18, fontWeight: '500' }}>Order Alert</Text>
+                            <Text style={{ fontSize: 16, fontWeight: '500' }}>Description </Text>
+                        </View>
+                    </Swipeout>
+                </View>
+                <View style={styles.serviceBar}>
+                    <Swipeout backgroundColor="white">
+                        <View style={{ padding: 20 }}>
+                            <Text style={{ fontSize: 18, fontWeight: '500' }}>Order Alert</Text>
+                            <Text style={{ fontSize: 16, fontWeight: '500' }}>Description </Text>
+                        </View>
+                    </Swipeout>
+                </View>
+                <View style={styles.serviceBar}>
+                    <Swipeout backgroundColor="white">
+                        <View style={{ padding: 20 }}>
+                            <Text style={{ fontSize: 18, fontWeight: '500' }}>Order Alert</Text>
+                            <Text style={{ fontSize: 16, fontWeight: '500' }}>Description </Text>
+                        </View>
+                    </Swipeout>
+                </View>
+                <View style={styles.serviceBar}>
+                    <Swipeout backgroundColor="white">
+                        <View style={{ padding: 20 }}>
+                            <Text style={{ fontSize: 18, fontWeight: '500' }}>Order Alert</Text>
+                            <Text style={{ fontSize: 16, fontWeight: '500' }}>Description </Text>
+                        </View>
+                    </Swipeout>
+                </View>
+                <View style={styles.serviceBar}>
+                    <Swipeout backgroundColor="white">
+                        <View style={{ padding: 20 }}>
+                            <Text style={{ fontSize: 18, fontWeight: '500' }}>Order Alert</Text>
+                            <Text style={{ fontSize: 16, fontWeight: '500' }}>Description </Text>
+                        </View>
+                    </Swipeout>
+                </View>
+                <View style={styles.serviceBar}>
+                    <Swipeout backgroundColor="white">
+                        <View style={{ padding: 20 }}>
+                            <Text style={{ fontSize: 18, fontWeight: '500' }}>Order Alert</Text>
+                            <Text style={{ fontSize: 16, fontWeight: '500' }}>Description </Text>
+                        </View>
+                    </Swipeout>
+                </View>
+                <View style={styles.serviceBar}>
+                    <Swipeout backgroundColor="white">
+                        <View style={{ padding: 20 }}>
+                            <Text style={{ fontSize: 18, fontWeight: '500' }}>Order Alert</Text>
+                            <Text style={{ fontSize: 16, fontWeight: '500' }}>Description </Text>
+                        </View>
+                    </Swipeout>
+                </View>
+                <View style={styles.serviceBar}>
+                    <Swipeout backgroundColor="white">
+                        <View style={{ padding: 20 }}>
+                            <Text style={{ fontSize: 18, fontWeight: '500' }}>Order Alert</Text>
+                            <Text style={{ fontSize: 16, fontWeight: '500' }}>Description </Text>
+                        </View>
+                    </Swipeout>
+                </View>
+                <View style={styles.serviceBar}>
+                    <Swipeout backgroundColor="white">
+                        <View style={{ padding: 20 }}>
+                            <Text style={{ fontSize: 18, fontWeight: '500' }}>Order Alert</Text>
+                            <Text style={{ fontSize: 16, fontWeight: '500' }}>Description </Text>
+                        </View>
+                    </Swipeout>
+                </View>
+                <View style={styles.serviceBar}>
+                    <Swipeout backgroundColor="white">
+                        <View style={{ padding: 20 }}>
+                            <Text style={{ fontSize: 18, fontWeight: '500' }}>Order Alert</Text>
+                            <Text style={{ fontSize: 16, fontWeight: '500' }}>Description </Text>
+                        </View>
+                    </Swipeout>
+                </View>
+                <View style={styles.serviceBar}>
+                    <Swipeout backgroundColor="white">
+                        <View style={{ padding: 20 }}>
+                            <Text style={{ fontSize: 18, fontWeight: '500' }}>Order Alert</Text>
+                            <Text style={{ fontSize: 16, fontWeight: '500' }}>Description </Text>
+                        </View>
+                    </Swipeout>
+                </View>
+                <View style={styles.serviceBar}>
+                    <Swipeout backgroundColor="white">
+                        <View style={{ padding: 20 }}>
+                            <Text style={{ fontSize: 18, fontWeight: '500' }}>Order Alert</Text>
+                            <Text style={{ fontSize: 16, fontWeight: '500' }}>Description </Text>
+                        </View>
+                    </Swipeout>
+                </View>
+                <View style={styles.serviceBar}>
+                    <Swipeout backgroundColor="white">
+                        <View style={{ padding: 20 }}>
+                            <Text style={{ fontSize: 18, fontWeight: '500' }}>Order Alert</Text>
+                            <Text style={{ fontSize: 16, fontWeight: '500' }}>Description </Text>
+                        </View>
+                    </Swipeout>
+                </View>
+                <View style={styles.serviceBar}>
+                    <Swipeout backgroundColor="white">
+                        <View style={{ padding: 20 }}>
+                            <Text style={{ fontSize: 18, fontWeight: '500' }}>Order Alert</Text>
+                            <Text style={{ fontSize: 16, fontWeight: '500' }}>Description </Text>
+                        </View>
+                    </Swipeout>
+                </View>
+                <View style={styles.serviceBar}>
+                    <Swipeout backgroundColor="white">
+                        <View style={{ padding: 20 }}>
+                            <Text style={{ fontSize: 18, fontWeight: '500' }}>Order Alert</Text>
+                            <Text style={{ fontSize: 16, fontWeight: '500' }}>Description </Text>
+                        </View>
+                    </Swipeout>
+                </View>
+                <View style={styles.serviceBar}>
+                    <Swipeout backgroundColor="white">
+                        <View style={{ padding: 20 }}>
+                            <Text style={{ fontSize: 18, fontWeight: '500' }}>Order Alert</Text>
+                            <Text style={{ fontSize: 16, fontWeight: '500' }}>Description </Text>
+                        </View>
+                    </Swipeout>
+                </View>
+                <View style={styles.serviceBar}>
+                    <Swipeout backgroundColor="white">
+                        <View style={{ padding: 20 }}>
+                            <Text style={{ fontSize: 18, fontWeight: '500' }}>Order Alert</Text>
+                            <Text style={{ fontSize: 16, fontWeight: '500' }}>Description </Text>
+                        </View>
+                    </Swipeout>
+                </View>
+                <View style={styles.serviceBar}>
+                    <Swipeout backgroundColor="white">
+                        <View style={{ padding: 20 }}>
+                            <Text style={{ fontSize: 18, fontWeight: '500' }}>Order Alert</Text>
+                            <Text style={{ fontSize: 16, fontWeight: '500' }}>Description </Text>
+                        </View>
+                    </Swipeout>
+                </View>
+                <View style={styles.serviceBar}>
+                    <Swipeout backgroundColor="white">
+                        <View style={{ padding: 20 }}>
+                            <Text style={{ fontSize: 18, fontWeight: '500' }}>Order Alert</Text>
+                            <Text style={{ fontSize: 16, fontWeight: '500' }}>Description </Text>
+                        </View>
+                    </Swipeout>
+                </View>
+                <View style={styles.serviceBar}>
+                    <Swipeout backgroundColor="white">
+                        <View style={{ padding: 20 }}>
+                            <Text style={{ fontSize: 18, fontWeight: '500' }}>Order Alert</Text>
+                            <Text style={{ fontSize: 16, fontWeight: '500' }}>Description </Text>
+                        </View>
+                    </Swipeout>
+                </View>
+                <View style={styles.serviceBar}>
+                    <Swipeout backgroundColor="white">
+                        <View style={{ padding: 20 }}>
+                            <Text style={{ fontSize: 18, fontWeight: '500' }}>Order Alert</Text>
+                            <Text style={{ fontSize: 16, fontWeight: '500' }}>Description </Text>
+                        </View>
+                    </Swipeout>
+                </View>
+                <View style={styles.serviceBar}>
+                    <Swipeout backgroundColor="white">
+                        <View style={{ padding: 20 }}>
+                            <Text style={{ fontSize: 18, fontWeight: '500' }}>Order Alert</Text>
+                            <Text style={{ fontSize: 16, fontWeight: '500' }}>Description </Text>
+                        </View>
+                    </Swipeout>
+                </View>
+                <View style={styles.serviceBar}>
+                    <Swipeout backgroundColor="white">
+                        <View style={{ padding: 20 }}>
+                            <Text style={{ fontSize: 18, fontWeight: '500' }}>Order Alert</Text>
+                            <Text style={{ fontSize: 16, fontWeight: '500' }}>Description </Text>
+                        </View>
+                    </Swipeout>
+                </View>
+                <View style={styles.serviceBar}>
+                    <Swipeout backgroundColor="white">
+                        <View style={{ padding: 20 }}>
+                            <Text style={{ fontSize: 18, fontWeight: '500' }}>Order Alert</Text>
+                            <Text style={{ fontSize: 16, fontWeight: '500' }}>Description </Text>
+                        </View>
+                    </Swipeout>
+                </View>
+            </ScrollView>
         )
     }
 }
@@ -15,9 +207,9 @@ export default class Notifications extends Component {
 
 
 const styles = StyleSheet.create({
-    container: {
-        flex: 1,
-        justifyContent: 'center',
-        alignItems: 'center',
-    }
+
+    serviceBar: {
+        borderBottomColor: '#ddd',
+        borderBottomWidth: 1,
+    },
 })

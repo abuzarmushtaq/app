@@ -1,20 +1,100 @@
 import React, { Component } from 'react'
-import { Text, View, StyleSheet } from 'react-native'
+import { Text, View, StyleSheet, ScrollView } from 'react-native';
+import Swipeout from 'react-native-swipeout';
+
 
 export default class ActiveJobs extends Component {
   render() {
     return (
-      <View style={styles.container}>
-        <Text> Active Jobs </Text>
-      </View>
+      <ScrollView>
+        <View style={styles.serviceBar}>
+          <Swipeout backgroundColor="white">
+            <View style={{ padding: 15 }}>
+              <Text style={{ fontSize: 18, fontWeight: '500' }}>Name: John </Text>
+              <Text style={{ fontSize: 16, fontWeight: '500' }}>Description </Text>
+            </View>
+          </Swipeout>
+        </View>
+        <View style={styles.serviceBar}>
+          <Swipeout backgroundColor="white">
+            <View style={{ padding: 15 }}>
+              <Text style={{ fontSize: 18, fontWeight: '500' }}>Name: John </Text>
+              <Text style={{ fontSize: 16, fontWeight: '500' }}>Description </Text>
+            </View>
+          </Swipeout>
+        </View>
+        <View style={styles.serviceBar}>
+          <Swipeout backgroundColor="white">
+            <View style={{ padding: 15 }}>
+              <Text style={{ fontSize: 18, fontWeight: '500' }}>Name: John </Text>
+              <Text style={{ fontSize: 16, fontWeight: '500' }}>Description </Text>
+            </View>
+          </Swipeout>
+        </View>
+        <View style={styles.serviceBar}>
+          <Swipeout backgroundColor="white">
+            <View style={{ padding: 15 }}>
+              <Text style={{ fontSize: 18, fontWeight: '500' }}>Name: John </Text>
+              <Text style={{ fontSize: 16, fontWeight: '500' }}>Description </Text>
+            </View>
+          </Swipeout>
+        </View>
+        <View style={styles.serviceBar}>
+          <Swipeout backgroundColor="white">
+            <View style={{ padding: 15 }}>
+              <Text style={{ fontSize: 18, fontWeight: '500' }}>Name: John </Text>
+              <Text style={{ fontSize: 16, fontWeight: '500' }}>Description </Text>
+            </View>
+          </Swipeout>
+        </View>
+        <View style={styles.serviceBar}>
+          <Swipeout backgroundColor="white">
+            <View style={{ padding: 15 }}>
+              <Text style={{ fontSize: 18, fontWeight: '500' }}>Name: John </Text>
+              <Text style={{ fontSize: 16, fontWeight: '500' }}>Description </Text>
+            </View>
+          </Swipeout>
+        </View>
+        <View style={styles.serviceBar}>
+          <Swipeout backgroundColor="white">
+            <View style={{ padding: 15 }}>
+              <Text style={{ fontSize: 18, fontWeight: '500' }}>Name: John </Text>
+              <Text style={{ fontSize: 16, fontWeight: '500' }}>Description </Text>
+            </View>
+          </Swipeout>
+        </View>
+        <View style={styles.serviceBar}>
+          <Swipeout backgroundColor="white">
+            <View style={{ padding: 15 }}>
+              <Text style={{ fontSize: 18, fontWeight: '500' }}>Name: John </Text>
+              <Text style={{ fontSize: 16, fontWeight: '500' }}>Description </Text>
+            </View>
+          </Swipeout>
+        </View>
+        <View style={styles.serviceBar}>
+          <Swipeout backgroundColor="white">
+            <View style={{ padding: 15 }}>
+              <Text style={{ fontSize: 18, fontWeight: '500' }}>Name: John </Text>
+              <Text style={{ fontSize: 16, fontWeight: '500' }}>Description </Text>
+            </View>
+          </Swipeout>
+        </View>
+        <View style={styles.serviceBar}>
+          <Swipeout backgroundColor="white">
+            <View style={{ padding: 15 }}>
+              <Text style={{ fontSize: 18, fontWeight: '500' }}>Name: John </Text>
+              <Text style={{ fontSize: 16, fontWeight: '500' }}>Description </Text>
+            </View>
+          </Swipeout>
+        </View>
+      </ScrollView>
     )
   }
 }
 
 const styles = StyleSheet.create({
-    container: {
-        flex: 1,
-        justifyContent: 'center',
-        alignItems: 'center',
-    }
+  serviceBar: {
+    borderBottomColor: '#ddd',
+    borderBottomWidth: 1,
+  },
 })

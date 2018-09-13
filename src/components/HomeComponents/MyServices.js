@@ -174,20 +174,16 @@ export default createMaterialTopTabNavigator({
 
 const styles = StyleSheet.create({
     serviceBar: {
-        // height: 100,
-        // justifyContent: 'center'
-        borderBottomColor: 'gray',
+        borderBottomColor: '#ddd',
         borderBottomWidth: 1,
     },
     AddButton: {
         flexDirection: 'row',
         alignItems: 'center',
-        borderWidth: 2,
         paddingTop: 5,
         paddingBottom: 5,
         paddingLeft: 10,
         paddingRight: 10,
-        borderRadius: 10,
         marginTop: 5
     }
 })
